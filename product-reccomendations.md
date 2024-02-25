@@ -2,7 +2,7 @@
 
 <h3>Last updated: 08/02/2024, work in progress</h3>
 
-**Disclaimer:** This is a list curated by one person, me. These are products I feel perform the best for their respective pricepoint, and not necessarily the right option for you. Measurements, online reviews and opinions of others are not substitutes for trying things for yourself. **This is not in any particular order, just products I find to be decent at their respective prices**
+**Disclaimer:** This is a list curated by one person, me. These are products I feel well at their respective pricepoints, and not necessarily the right option for you. Measurements, online reviews and opinions of others are not substitutes for trying things for yourself. **This is not in any particular order, just products I find to be decent at their respective prices**
 
 <h2>Headphones</h2>
 
