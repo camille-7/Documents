@@ -31,7 +31,7 @@ If you are on a device running iOS or iPadOS, use AudioTools, available here: ht
 
 <h3>Configuring RoomEQWizard</h3>
 
-<img src="Assets/REW-Preferences.jpg" style="width:400px;"/> 
+<img src="Assets/REW-Preferences.jpg" style="width:600px;"/> 
 
 Navivate to Preferences in REW, and assign your inputs and outputs to use the Apple USB-C to 3.5mm Adapter. Your preferences should appear as above or similar if you are using a different device.
 
@@ -74,11 +74,11 @@ Insert the IEM you wish to measure into the open end of the coupler, being sure 
 
 To begin with, insert the name of the IEM you're measuring into the <b>Name</b> field, as well as the channel that you're measuring. Example: <i>Example IEM R</i>
 
-<img src="Assets/REW-Name.jpg" style="width:400px;"/>
+<img src="Assets/REW-Name.jpg" style="width:600px;"/>
 
 You want to establish the volume level you are going to conduct your measurement at, it is best to ensure this is the same between both channels of the IEM as well as between measurements. By pressing <b>Check Levels</b>, white noise will play at the volume level you define in the <b>Level</b> box. Ideally <b>start at -24dB</b>, then gradually bring that number higher or lower until you reach 84dB.
 
-<img src="Assets/REW-Measure.jpg" style="width:400px;"/>
+<img src="Assets/REW-Measure.jpg" style="width:600px;"/>
 
 Now, it's time ot perform the sweep. Upon pressing <b>Start</b>, a sine wave will play over the course of a few seconds, and the microphone inside the coupler will record the decibel level of all the frequencies it hears, resulting in a plot that looks like the image below:
 
@@ -93,7 +93,7 @@ Your results will automatically appear on the left hand side of REW once complet
 
 Now, hit <b>File > Export > Export all measurements as text</b>. Use the following paramaters when exporting your measurements, and when done, hit <b>Save</b> to choose a location to save them to on your system.
 
-<img src="Assets/REW-Export.jpg" style="width:400px;"/>
+<img src="Assets/REW-Export.jpg" style="width:600px;"/>
 
 <h3>Measuring in AudioTools</h3>
 
@@ -101,7 +101,7 @@ In AudioTools, we will be using pink noise and collecting an average over 30s of
 
 In AudioTools' <b>FFT Test</b>, press the squiggly line on the bottom bar. This will open the Pink Noise generator. Once you toggle this on, pink noise will begin to play and the plot will record averages over however long you run this test. If you notice any abnormalities or if the IEM somehow comes loose during the test, you can hit <b>Reset</b> in the bottom right hand side to restart the plot.
 
-<img src="Assets/AudioTools-Measurement.jpg" style="width:400px;"/>
+<img src="Assets/AudioTools-Measurement.jpg" style="width:600px;"/>
 
 Record the average over a 30s - 1m period, or as long as it takes for any abnormalities, particularly in the bass, to level out. The end result should look like the image above, smoothed out. 
 
