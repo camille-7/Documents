@@ -21,7 +21,7 @@ To get started, you will need the following:
  - A USB-C (or Lightning) to 3.5mm adapter to use as an ADC, amplifier and DAC for measurements, such as the revered Apple USB-C to 3.5mm Adapter: https://www.apple.com/au/shop/product/MU7E2FE/A/usb-c-to-35-mm-headphone-jack-adapter
  - A 3.5mm male to dual 3.5mm female adapter, to seperate the microphone and headphone inputs
 
-![image](Assets/IEC711-Coupler-IEM-Inserted.jpg)
+<img src="Assets/IEC711-Coupler-IEM-Inserted.jpg" style="width:200px;"/>
 
 <h2><a name="Equipment">Software</h2></a>
 
@@ -31,7 +31,7 @@ If you are on a device running iOS or iPadOS, use AudioTools, available here: ht
 
 <h3>Configuring RoomEQWizard</h3>
 
-![image](Assets/REW-Preferences.jpg) 
+<img src="Assets/REW-Preferences.jpg" style="width:400px;"/> 
 
 Navivate to Preferences in REW, and assign your inputs and outputs to use the Apple USB-C to 3.5mm Adapter. Your preferences should appear as above or similar if you are using a different device.
 
@@ -51,8 +51,8 @@ Select the <b>Wrench Icon on the bottom-right hand side</b>, and change the foll
  - Overlap: 45%
  - Other Settings: Thick Plot
 
-![image](Assets/AudioTools-FFTSettings1.jpg)
-![image](Assets/AudioTools-FFTSettings2.jpg)
+<img src="Assets/AudioTools-FFTSettings1.jpg" style="width:200px;"/>
+<img src="Assets/AudioTools-FFTSettings2.jpg" style="width:200px;"/>
 
  Press on <b>"Fast" on the bottom-right hand side</b>, and change it to <b>Average</b>. Press on <b>"1/12 Octave on the bottom-left hand side</b>, and change this to <b>1/24 Octave</b>.
 
@@ -70,19 +70,19 @@ Select <b>Measure</b> in the top bar on the left-hand side of REW.
 
 Insert the IEM you wish to measure into the open end of the coupler, being sure not to push it in too deep, but keeping it just where it forms enough of a seal not to come loose.
 
-![image](Assets/IEM-Inserted.jpg)
+<img src="Assets/IEM-Inserted.jpg" style="width:200px;"/>
 
 To begin with, insert the name of the IEM you're measuring into the <b>Name</b> field, as well as the channel that you're measuring. Example: <i>Example IEM R</i>
 
-![image](Assets/REW-Name.jpg)
+<img src="Assets/REW-Name.jpg" style="width:400px;"/>
 
 You want to establish the volume level you are going to conduct your measurement at, it is best to ensure this is the same between both channels of the IEM as well as between measurements. By pressing <b>Check Levels</b>, white noise will play at the volume level you define in the <b>Level</b> box. Ideally <b>start at -24dB</b>, then gradually bring that number higher or lower until you reach 84dB.
 
-![image](Assets/REW-Measure.jpg)
+<img src="Assets/REW-Measure.jpg" style="width:400px;"/>
 
 Now, it's time ot perform the sweep. Upon pressing <b>Start</b>, a sine wave will play over the course of a few seconds, and the microphone inside the coupler will record the decibel level of all the frequencies it hears, resulting in a plot that looks like the image below:
 
-![image](Assets/REW-Alignment.jpg)
+<img src="Assets/REW-Alignment.jpg" style="width:600px;"/>
 <i>Your results will appear smoother than the ones above, this data was imported from a previous measurement.</i>
 
 Note the <b>8kHz resonance pointed out</b>, we want to try our best to align this between measurements. If you notice that the resonance peak is at a higher frequency than 8kHz, try pulling the IEM further out of the coupler, reducing the insertion depth. The opposite is true if you notice this resonance peak occurring earlier than 8kHz. <b>Note:</b> <i>This may not appear on all in-ear monitors, in some cases there may be a recess where you'd expect the peak, or some kind of other artifact.</i>
@@ -93,7 +93,7 @@ Your results will automatically appear on the left hand side of REW once complet
 
 Now, hit <b>File > Export > Export all measurements as text</b>. Use the following paramaters when exporting your measurements, and when done, hit <b>Save</b> to choose a location to save them to on your system.
 
-![image](Assets/REW-Export.jpg)
+<img src="Assets/REW-Export.jpg" style="width:400px;"/>
 
 <h3>Measuring in AudioTools</h3>
 
@@ -101,7 +101,7 @@ In AudioTools, we will be using pink noise and collecting an average over 30s of
 
 In AudioTools' <b>FFT Test</b>, press the squiggly line on the bottom bar. This will open the Pink Noise generator. Once you toggle this on, pink noise will begin to play and the plot will record averages over however long you run this test. If you notice any abnormalities or if the IEM somehow comes loose during the test, you can hit <b>Reset</b> in the bottom right hand side to restart the plot.
 
-![image](Assets/AudioTools-Measurement.jpg)
+<img src="Assets/AudioTools-Measurement.jpg" style="width:400px;"/>
 
 Record the average over a 30s - 1m period, or as long as it takes for any abnormalities, particularly in the bass, to level out. The end result should look like the image above, smoothed out. 
 
@@ -111,5 +111,5 @@ Repeat for the other channel, keeping volume at 1kHz consistent as well as keepi
 
 Once your measurement is complete, you can save the end result by pressing the <b>File Icon</b> on the bottom toolbar, naming your measurement and hitting <b>Save</b>. Once it is saved in AudioTools, press on the measurement and hit the <b>Share Icon</b>, and selecting <b>Save To Files</b>. This will export a text document containing the data to a location of your choice. I reccommend using iCloud as this will make your measurements accessible on another device.
 
-![image](Assets/AudioTools-SaveAs.jpg)
-![image](Assets/AudioTools-SaveToFiles.jpg)
+<img src="Assets/AudioTools-SaveAs.jpg" style="width:200px;"/>
+<img src="Assets/AudioTools-SaveToFiles.jpg" style="width:200px;"/>
