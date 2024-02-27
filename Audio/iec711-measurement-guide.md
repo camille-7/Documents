@@ -21,7 +21,7 @@ To get started, you will need the following:
  - A USB-C (or Lightning) to 3.5mm adapter to use as an ADC, amplifier and DAC for measurements, such as the revered Apple USB-C to 3.5mm Adapter: https://www.apple.com/au/shop/product/MU7E2FE/A/usb-c-to-35-mm-headphone-jack-adapter
  - A 3.5mm male to dual 3.5mm female adapter, to seperate the microphone and headphone inputs
 
-<img src="Assets/IEC711-Coupler-IEM-Inserted.jpg" style="width:200px;"/>
+<img src="Assets/IEC711-Coupler-IEM-Inserted.jpg" style="width:400px;"/>
 
 <h2><a name="Equipment">Software</h2></a>
 
@@ -70,7 +70,7 @@ Select <b>Measure</b> in the top bar on the left-hand side of REW.
 
 Insert the IEM you wish to measure into the open end of the coupler, being sure not to push it in too deep, but keeping it just where it forms enough of a seal not to come loose.
 
-<img src="Assets/IEM-Inserted.jpg" style="width:200px;"/>
+<img src="Assets/IEM-Inserted.jpg" style="width:600px;"/>
 
 To begin with, insert the name of the IEM you're measuring into the <b>Name</b> field, as well as the channel that you're measuring. Example: <i>Example IEM R</i>
 
@@ -111,5 +111,5 @@ Repeat for the other channel, keeping volume at 1kHz consistent as well as keepi
 
 Once your measurement is complete, you can save the end result by pressing the <b>File Icon</b> on the bottom toolbar, naming your measurement and hitting <b>Save</b>. Once it is saved in AudioTools, press on the measurement and hit the <b>Share Icon</b>, and selecting <b>Save To Files</b>. This will export a text document containing the data to a location of your choice. I reccommend using iCloud as this will make your measurements accessible on another device.
 
-<img src="Assets/AudioTools-SaveAs.jpg" style="width:200px;"/>
-<img src="Assets/AudioTools-SaveToFiles.jpg" style="width:200px;"/>
+<img src="Assets/AudioTools-SaveAs.jpg" style="width:400px;"/>
+<img src="Assets/AudioTools-SaveToFiles.jpg" style="width:400px;"/>
