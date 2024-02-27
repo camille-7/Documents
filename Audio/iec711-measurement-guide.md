@@ -31,7 +31,7 @@ If you are on a device running iOS or iPadOS, use AudioTools, available here: ht
 
 <h3>Configuring RoomEQWizard</h3>
 
-![image](Assets/REW-Preferences.jpg)
+![image](Assets/REW-Preferences.jpg) 
 
 Navivate to Preferences in REW, and assign your inputs and outputs to use the Apple USB-C to 3.5mm Adapter. Your preferences should appear as above or similar if you are using a different device.
 
@@ -39,7 +39,7 @@ Navivate to Preferences in REW, and assign your inputs and outputs to use the Ap
 
 The process for configuring AudioTools is more involved than REW. 
 
-First, you want to upload a basic calibration file for use with your Adapter. Navigate to <b>Settings</b> and then <b>Microphone Setup</b>. Download [this file](addlinkhere), select the adapter in the <b>Input Source</b> page and then select <b>Cal File</b>. Select the file you downloaded in the File Browser, then hit 'Apply'. Once done, make sure you set the adapter to <b>High Range</b> as it will be Low Range by default.
+First, you want to upload a basic calibration file for use with your Adapter. Navigate to <b>Settings</b> and then <b>Microphone Setup</b>. Download [this file](Assets/Flat_Target.txt), select the adapter in the <b>Input Source</b> page and then select <b>Cal File</b>. Select the file you downloaded in the File Browser, then hit 'Apply'. Once done, make sure you set the adapter to <b>High Range</b> as it will be Low Range by default.
 
 Next, navigate back to the home page of AudioTools, from there, select <b>Acoustics</b> and <b>FFT</b>. This is where most of our measurements will be conducted, instead of being a sweep like in REW, we will use this test to collect an average over time using Pink Noise.
 
@@ -51,7 +51,8 @@ Select the <b>Wrench Icon on the bottom-right hand side</b>, and change the foll
  - Overlap: 45%
  - Other Settings: Thick Plot
 
- (Insert Images)
+![image](Assets/AudioTools-FFTSettings1.jpg)
+![image](Assets/AudioTools-FFTSettings2.jpg)
 
  Press on <b>"Fast" on the bottom-right hand side</b>, and change it to <b>Average</b>. Press on <b>"1/12 Octave on the bottom-left hand side</b>, and change this to <b>1/24 Octave</b>.
 
@@ -100,14 +101,15 @@ In AudioTools, we will be using pink noise and collecting an average over 30s of
 
 In AudioTools' <b>FFT Test</b>, press the squiggly line on the bottom bar. This will open the Pink Noise generator. Once you toggle this on, pink noise will begin to play and the plot will record averages over however long you run this test. If you notice any abnormalities or if the IEM somehow comes loose during the test, you can hit <b>Reset</b> in the bottom right hand side to restart the plot.
 
-(Screenshot of AudioTools during FR measurement)
+![image](Assets/AudioTools-Measurement.jpg)
 
 Record the average over a 30s - 1m period, or as long as it takes for any abnormalities, particularly in the bass, to level out. The end result should look like the image above, smoothed out. 
 
-Try and match the volume level at 1kHz between measurements, circled in red below at XXdB.
-
-(Screenshot of 1kHz circled in RED during FFT measurement)
+Try and match the volume level at 1kHz between measurements.
 
 Repeat for the other channel, keeping volume at 1kHz consistent as well as keeping an eye on the 8kHz resonance peak as you would in REW.
 
 Once your measurement is complete, you can save the end result by pressing the <b>File Icon</b> on the bottom toolbar, naming your measurement and hitting <b>Save</b>. Once it is saved in AudioTools, press on the measurement and hit the <b>Share Icon</b>, and selecting <b>Save To Files</b>. This will export a text document containing the data to a location of your choice. I reccommend using iCloud as this will make your measurements accessible on another device.
+
+![image](Assets/AudioTools-SaveAs.jpg)
+![image](Assets/AudioTools-SaveToFiles.jpg)
