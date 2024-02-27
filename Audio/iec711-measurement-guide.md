@@ -21,7 +21,7 @@ To get started, you will need the following:
  - A USB-C (or Lightning) to 3.5mm adapter to use as an ADC, amplifier and DAC for measurements, such as the revered Apple USB-C to 3.5mm Adapter: https://www.apple.com/au/shop/product/MU7E2FE/A/usb-c-to-35-mm-headphone-jack-adapter
  - A 3.5mm male to dual 3.5mm female adapter, to seperate the microphone and headphone inputs
 
-(Example photo goes here)
+![image](Assets/IEC711-Coupler-IEM-Inserted.jpg)
 
 <h2><a name="Equipment">Software</h2></a>
 
@@ -31,7 +31,7 @@ If you are on a device running iOS or iPadOS, use AudioTools, available here: ht
 
 <h3>Configuring RoomEQWizard</h3>
 
-(Insert image of I/O REW)
+![image](Assets/REW-Preferences.jpg)
 
 Navivate to Preferences in REW, and assign your inputs and outputs to use the Apple USB-C to 3.5mm Adapter. Your preferences should appear as above or similar if you are using a different device.
 
@@ -59,11 +59,9 @@ Select the <b>Wrench Icon on the bottom-right hand side</b>, and change the foll
 
  Now that you have REW or AudioTools configured, it's time to measure. I like to follow these best practices when collecting data:
   - Use included eartips, preferrably a smaller size to make insertion easier into the coupler
-  - Align the 8kHz resonance commonly found with IEC711 couplers between measurements, to ensure consistency (you will notice a spike around this region)
+  - Align the 8kHz resonance (or other frequency response artificats common in this region) commonly found with IEC711 couplers between measurements, to ensure consistency (you will notice a spike around this region)
   - Use different insertion depths and document them
   - Normalize measurments to the same dB level, I prefer to use 84dB
-
-(Rew screenshot)
 
 <h3>Measuring in RoomEQWizard</h3>
 
@@ -71,21 +69,22 @@ Select <b>Measure</b> in the top bar on the left-hand side of REW.
 
 Insert the IEM you wish to measure into the open end of the coupler, being sure not to push it in too deep, but keeping it just where it forms enough of a seal not to come loose.
 
-(Insert image of IEM inside coupler)
+![image](Assets/IEM-Inserted.jpg)
 
 To begin with, insert the name of the IEM you're measuring into the <b>Name</b> field, as well as the channel that you're measuring. Example: <i>Example IEM R</i>
 
-(Insert screenshot of name field)
+![image](Assets/REW-Name.jpg)
 
 You want to establish the volume level you are going to conduct your measurement at, it is best to ensure this is the same between both channels of the IEM as well as between measurements. By pressing <b>Check Levels</b>, white noise will play at the volume level you define in the <b>Level</b> box. Ideally <b>start at -24dB</b>, then gradually bring that number higher or lower until you reach 84dB.
 
-(Insert screenshot of correct level)
+![image](Assets/REW-Measure.jpg)
 
 Now, it's time ot perform the sweep. Upon pressing <b>Start</b>, a sine wave will play over the course of a few seconds, and the microphone inside the coupler will record the decibel level of all the frequencies it hears, resulting in a plot that looks like the image below:
 
-(Insert image)
+![image](Assets/REW-Alignment.jpg)
+<i>Your results will appear smoother than the ones above, this data was imported from a previous measurement.</i>
 
-Note the <b>8kHz resonance circled in red</b>, we want to try our best to align this between measurements. If you notice that the resonance peak is at a higher frequency than 8kHz, try pulling the IEM further out of the coupler, reducing the insertion depth. The opposite is true if you notice this resonance peak occurring earlier than 8kHz. <b>Note:</b> <i>This may not appear on all in-ear monitors, in some cases there may be a recess where you'd expect the peak, or some kind of other artifact.</i>
+Note the <b>8kHz resonance pointed out</b>, we want to try our best to align this between measurements. If you notice that the resonance peak is at a higher frequency than 8kHz, try pulling the IEM further out of the coupler, reducing the insertion depth. The opposite is true if you notice this resonance peak occurring earlier than 8kHz. <b>Note:</b> <i>This may not appear on all in-ear monitors, in some cases there may be a recess where you'd expect the peak, or some kind of other artifact.</i>
 
 Now that you've measured one channel, repeat the same steps for the other channel. Take as much time and as many measurements as you need to establish consistency between them.
 
@@ -93,7 +92,7 @@ Your results will automatically appear on the left hand side of REW once complet
 
 Now, hit <b>File > Export > Export all measurements as text</b>. Use the following paramaters when exporting your measurements, and when done, hit <b>Save</b> to choose a location to save them to on your system.
 
-(Insert REW export image)
+![image](Assets/REW-Export.jpg)
 
 <h3>Measuring in AudioTools</h3>
 
