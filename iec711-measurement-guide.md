@@ -58,9 +58,9 @@ Select the <b>Wrench Icon on the bottom-right hand side</b>, and change the foll
  <a name="Measurements"><h2>Taking Measurements</h2></a> 
 
  Now that you have REW or AudioTools configured, it's time to measure. I like to follow these best practices when collecting data:
-  - If possible, use included eartips, preferrably a smaller size to make insertion easier into the coupler
+  - Use included eartips, preferrably a smaller size to make insertion easier into the coupler
   - Align the 8kHz resonance commonly found with IEC711 couplers between measurements, to ensure consistency (you will notice a spike around this region)
-  - If possible, use different insertion depths and document them
+  - Use different insertion depths and document them
   - Normalize measurments to the same dB level, I prefer to use 84dB
 
 (Rew screenshot)
@@ -85,7 +85,7 @@ Now, it's time ot perform the sweep. Upon pressing <b>Start</b>, a sine wave wil
 
 (Insert image)
 
-Note the <b>8kHz resonance circled in red</b>, we want to try our best to align this between measurements. If you notice that the resonance peak is at a higher frequency than 8kHz, try pulling the IEM further out of the coupler, reducing the insertion depth. The opposite is true if you notice this resonance peak occurring earlier than 8kHz.
+Note the <b>8kHz resonance circled in red</b>, we want to try our best to align this between measurements. If you notice that the resonance peak is at a higher frequency than 8kHz, try pulling the IEM further out of the coupler, reducing the insertion depth. The opposite is true if you notice this resonance peak occurring earlier than 8kHz. <b>Note:</b> <i>This may not appear on all in-ear monitors, in some cases there may be a recess where you'd expect the peak, or some kind of other artifact.</i>
 
 Now that you've measured one channel, repeat the same steps for the other channel. Take as much time and as many measurements as you need to establish consistency between them.
 
@@ -112,4 +112,3 @@ Try and match the volume level at 1kHz between measurements, circled in red belo
 Repeat for the other channel, keeping volume at 1kHz consistent as well as keeping an eye on the 8kHz resonance peak as you would in REW.
 
 Once your measurement is complete, you can save the end result by pressing the <b>File Icon</b> on the bottom toolbar, naming your measurement and hitting <b>Save</b>. Once it is saved in AudioTools, press on the measurement and hit the <b>Share Icon</b>, and selecting <b>Save To Files</b>. This will export a text document containing the data to a location of your choice. I reccommend using iCloud as this will make your measurements accessible on another device.
-
