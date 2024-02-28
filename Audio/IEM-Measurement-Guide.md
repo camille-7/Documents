@@ -21,7 +21,7 @@ To get started, you will need the following:
 
 <img src="Assets/IEC711-Coupler-IEM-Inserted.jpg" style="width:400px;"/>
 
-<h2><a name="Equipment">Software</h2></a>
+<h2><a name="Software">Software</h2></a>
 
 If you are on a Windows, Mac or Linux device, use RoomEQWizard, available here: https://www.roomeqwizard.com/
 
