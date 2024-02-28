@@ -10,8 +10,6 @@ This is a comprehensive guide on measuring the frequency response of in-ear moni
 
 [3. Taking Measurements](#Measurements)
 
-[4. Exporting Data](#Data)
-
 <h2><a name="Eqipment">Equipment</h2></a>
 
 To get started, you will need the following:
