@@ -51,8 +51,7 @@ Select the <b>Wrench Icon on the bottom-right hand side</b>, and change the foll
  - Overlap: 45%
  - Other Settings: Thick Plot
 
-<img src="Assets/AudioTools-FFTSettings1.jpg" style="width:200px;"/>
-<img src="Assets/AudioTools-FFTSettings2.jpg" style="width:200px;"/>
+<img src="Assets/AudioTools-FFTSettings1.jpg" style="width:200px;"/> <img src="Assets/AudioTools-FFTSettings2.jpg" style="width:200px;"/>
 
  Press on <b>"Fast" on the bottom-right hand side</b>, and change it to <b>Average</b>. Press on <b>"1/12 Octave on the bottom-left hand side</b>, and change this to <b>1/24 Octave</b>.
 
@@ -111,5 +110,4 @@ Repeat for the other channel, keeping volume at 1kHz consistent as well as keepi
 
 Once your measurement is complete, you can save the end result by pressing the <b>File Icon</b> on the bottom toolbar, naming your measurement and hitting <b>Save</b>. Once it is saved in AudioTools, press on the measurement and hit the <b>Share Icon</b>, and selecting <b>Save To Files</b>. This will export a text document containing the data to a location of your choice. I reccommend using iCloud as this will make your measurements accessible on another device.
 
-<img src="Assets/AudioTools-SaveAs.jpg" style="width:200px;"/>
-<img src="Assets/AudioTools-SaveToFiles.jpg" style="width:200px;"/>
+<img src="Assets/AudioTools-SaveAs.jpg" style="width:200px;"/> <img src="Assets/AudioTools-SaveToFiles.jpg" style="width:200px;"/>
