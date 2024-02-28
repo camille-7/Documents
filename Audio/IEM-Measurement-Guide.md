@@ -6,7 +6,7 @@ This is a comprehensive guide on measuring the frequency response of in-ear moni
 
 [1. Equipment](#Equipment)
 
-[2. Software](#REW)
+[2. Software](#Software)
 
 [3. Taking Measurements](#Measurements)
 
